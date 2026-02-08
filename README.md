@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@esm/index.mjs';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@v0.1.1-esm/index.mjs';
 ```
 
 #### maxabs( N, x, strideX )
@@ -150,7 +150,7 @@ var v = maxabs.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@esm/index.mjs';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxabs@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
